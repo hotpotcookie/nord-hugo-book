@@ -96,8 +96,8 @@
   .book-hint {
     @each $name, $color in $hint-colors {
       &.#{$name} {
-        border-color: $color;
-        background-color: rgba($color, 0.1);
+        border-color: rgba($color, 0.5);
+        background-color: rgba($color, 0.08);
       }
     }
   }
