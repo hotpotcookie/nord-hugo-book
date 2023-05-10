@@ -41,7 +41,6 @@
     label {
       display: inline-block;
       padding: $padding-8 $padding-16;
-      border-bottom: $padding-1 transparent;
       cursor: pointer;
     }
 
@@ -60,7 +59,6 @@
       display: block;
     }
     input[type="radio"]:focus + label {
-      @include outline;
     }
   }
 
