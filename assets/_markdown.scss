@@ -50,6 +50,7 @@
   optgroup,
   strong {
     font-weight: bolder;
+    color: #fcdcb8;
   }
 
   a {
@@ -86,6 +87,10 @@
       padding: 0;
       background: none;
     }
+  }
+
+  pre code {
+    color: #ece0ff;
   }
 
   p {
