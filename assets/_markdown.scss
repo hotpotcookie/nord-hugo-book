@@ -16,7 +16,7 @@
   h6 {
     font-weight: normal;
     line-height: 1;
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-bottom: $padding-16;
 
     a.anchor {
@@ -50,7 +50,7 @@
   optgroup,
   strong {
     font-weight: bolder;
-    color: #fcdcb8;
+    color: #434c5e;
   }
 
   a {
@@ -71,10 +71,10 @@
 
   code {
     padding: 0.05em 0.3em;
-    background: #282a36;
+    background: #e5e9f0;
     border-radius: 0.25rem;
     font-size: 0.875em;
-    color: #fcd4fb;
+    color: #3b4252;
   }
 
   pre {
@@ -102,7 +102,7 @@
     padding: $padding-8 $padding-16 $padding-8 ($padding-16 - $padding-4); //to keep total left space 16dp
 
     border-inline-start: $padding-4 solid var(--gray-200);
-    border-radius: 0.5rem;
+    border-radius: 0.4em;
 
     :first-child {
       margin-top: 0;
@@ -129,7 +129,7 @@
     }
 
     tr:nth-child(2n) {
-      background: #282e3b;
+      background: #ffff;
     }
   }
 
@@ -142,9 +142,9 @@
   }
 
   td:first-child {
-    background: #282a36;
+    background: #2e3440;
     text-align: center;
-    color: #f1fa8c;    
+    color: #eceff4;    
   }
 
   .custom.table {
@@ -160,15 +160,14 @@
 
 
   th {
-    background: #282a36;
-    color: #fcd4fb;
-
+    background: #2e3440;
+    color: #eceff4;
   }
 
   hr {
     height: $padding-1;
     border: none;
-    background: var(--gray-200);
+    background: #d8dee9;
   }
 
   ul,

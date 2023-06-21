@@ -9,7 +9,7 @@ $font-size-12: 0.75rem !default;
 $font-size-14: 0.875rem !default;
 $font-size-16: 1rem !default;
 
-$border-radius: $padding-8 !default;
+$border-radius: 0.4em !default;
 
 $body-font-weight: normal !default;
 
@@ -34,8 +34,8 @@ $hint-colors: (
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+  --color-link: #5e81ac;
+  --color-visited-link: #7d5a94;
 
   --body-background: white;
   --body-font-color: black;
@@ -43,7 +43,7 @@ $hint-colors: (
   --icon-filter: none;
 
   --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
+  --hint-color-warning: #a3be8c;
   --hint-color-danger: #f66;
 }
 
@@ -52,15 +52,15 @@ $hint-colors: (
   --gray-200: rgba(255, 255, 255, 0.2);
   --gray-500: rgba(255, 255, 255, 0.5);
 
-  --color-link: #69FF94;
-  --color-visited-link: #bd93f9;
+  --color-link: #ebcb8b;
+  --color-visited-link: #ebcb8b;
 
   --body-background: #343a40;
   --body-font-color: #e9ecef;
 
   --icon-filter: brightness(0) invert(1);
 
-  --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
+  --hint-color-info: #88c0d0;
+  --hint-color-warning: #a3be8c;
   --hint-color-danger: #f66;
 }
