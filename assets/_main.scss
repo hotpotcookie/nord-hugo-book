@@ -28,7 +28,7 @@ h3,
 h4,
 h5 {
   font-weight: $body-font-weight;
-  color: #5e81ac;  
+  color: #b06179;  
 }
 
 a {
@@ -90,6 +90,8 @@ ul.pagination {
 .book-brand {
   margin-top: 0;
   margin-bottom: $padding-16;
+  color: #e391aa;
+  font-weight: bolder;
 
   img {
     height: 1.5em;
@@ -106,7 +108,6 @@ ul.pagination {
     width: $menu-width;
     padding: $padding-16;
     background: #ffffff;
-
     @include fixed;
   }
 
@@ -118,7 +119,8 @@ ul.pagination {
   }
 
   a.active {
-    color: var(--color-link);
+    color: #9e5a6f;
+    font-style: italic;
   }
 
   input.toggle + label + ul {
@@ -170,7 +172,20 @@ body[dir="rtl"] .book-menu {
 }
 
 .book-post {
-  margin-bottom: $padding-16 * 2;
+  margin-bottom: $padding-16 * 1;
+  padding: 1em;
+  border-radius: 0.4em;
+  border: 1px solid #b8c1d1;
+}
+
+.book-post p {
+  margin-bottom: 0em;
+}
+
+.book-post div a {
+  padding: 0.2em 0.4em 0.2em 0.4em;
+  border-radius: 0.4em;
+  background: #f4ecf3;
 }
 
 .book-header {

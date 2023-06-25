@@ -32,6 +32,10 @@
     }
   }
 
+  h3 {
+    margin-top: 1.5em;
+  }
+
   h4,
   h5,
   h6 {
@@ -95,6 +99,16 @@
 
   p {
     word-wrap: break-word;
+  }
+
+  div {
+    margin-bottom: 0.4em;
+  }
+
+  div a {
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    border-radius: 0.4em;
+    background: #f4ecf3;
   }
 
   blockquote {
@@ -167,7 +181,7 @@
   hr {
     height: $padding-1;
     border: none;
-    background: #d8dee9;
+    background: #b8c1d1;
   }
 
   ul,
@@ -235,6 +249,10 @@
   }
 }
 
+.markdown-inner pre {
+  margin-bottom: 0em;
+}
+
   .justify-between strong {
     padding: 0 1em 0 1em;
     font-size: 75%;
@@ -244,3 +262,7 @@
   .custom.table.markdown-inner {
     margin-bottom: 0.25em;
   }
+
+.book-expand div {
+  margin-bottom: 0em;
+}
