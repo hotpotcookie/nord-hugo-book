@@ -315,6 +315,11 @@ body[dir="rtl"] .book-menu {
     margin-inline-start: -$menu-width;
     font-size: $font-size-base;
     z-index: 1;
+
+    .book-menu-content {
+      width: 16rem;
+    }
+
   }
 
   .book-toc {
