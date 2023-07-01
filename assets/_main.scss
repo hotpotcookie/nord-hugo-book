@@ -98,6 +98,10 @@ ul.pagination {
     width: 1.5em;
     margin-inline-end: $padding-8;
   }
+
+  span {
+    color: #e391aa;    
+  }
 }
 
 .book-menu {
@@ -173,7 +177,10 @@ body[dir="rtl"] .book-menu {
 
 .book-page .markdown div {
   color: white;
-  margin-bottom: 0.45em;
+}
+
+.book-page .markdown p, span, ul, li, label, td {
+  color: #3b4252;
 }
 
 .book-post {
