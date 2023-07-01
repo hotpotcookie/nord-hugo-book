@@ -74,7 +74,7 @@
   }
 
   code {
-    padding: 0.05em 0.3em;
+    padding: 0.05em 0.3em 0.15em 0.3em;
     background: #e5e9f0;
     border-radius: 0.25rem;
     font-size: 0.875em;
@@ -138,7 +138,7 @@
 
     tr th,
     tr td {
-      padding: $padding-8 $padding-8;
+      padding: 0.2em 0.4em;
       border: $padding-1 solid var(--gray-200);
     }
 
@@ -176,6 +176,10 @@
   th {
     background: #2e3440;
     color: #eceff4;
+  }
+
+  td {
+    white-space: nowrap;
   }
 
   hr {

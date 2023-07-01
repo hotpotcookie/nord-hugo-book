@@ -317,6 +317,7 @@ body[dir="rtl"] .book-menu {
     z-index: 1;
 
     .book-menu-content {
+      font-size: 0.6em;
       width: 16rem;
     }
 
@@ -373,6 +374,12 @@ body[dir="rtl"] .book-menu {
     .book-menu .book-menu-content {
       transform: translateX(-$menu-width);
     }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 0.65em;
   }
 }
 
