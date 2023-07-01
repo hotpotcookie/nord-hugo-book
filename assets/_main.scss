@@ -171,6 +171,11 @@ body[dir="rtl"] .book-menu {
   padding: $padding-16;
 }
 
+.book-page .markdown div {
+  color: white;
+  margin-bottom: 0.45em;
+}
+
 .book-post {
   margin-bottom: $padding-16 * 1;
   padding: 1em;
@@ -180,6 +185,10 @@ body[dir="rtl"] .book-menu {
 
 .book-post p {
   margin-bottom: 0em;
+}
+
+.book-post div {
+  color: white;
 }
 
 .book-post div a {
@@ -317,7 +326,7 @@ body[dir="rtl"] .book-menu {
     z-index: 1;
 
     .book-menu-content {
-      font-size: 0.6em;
+      font-size: 0.9em;
       width: 16rem;
     }
 
@@ -379,8 +388,12 @@ body[dir="rtl"] .book-menu {
 
 @media screen and (max-width: 450px) {
   html {
-    font-size: 0.65em;
+    font-size: 0.6em;
   }
+  .container.flex .book-menu-content {
+    font-size: 0.55em;
+    width: 16rem;
+  }  
 }
 
 // Extra space for big screens
