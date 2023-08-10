@@ -179,8 +179,14 @@ body[dir="rtl"] .book-menu {
   color: white;
 }
 
-.book-page .markdown p, span, ul, li, label, td {
+.book-page .markdown p span, ul, li, label, td {
   color: #3b4252;
+}
+
+.book-page .markdown #prelude {
+  text-align: center;
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 .book-post {
@@ -192,6 +198,13 @@ body[dir="rtl"] .book-menu {
 
 .book-post p {
   margin-bottom: 0em;
+  background: #fff0fb;
+  border-radius: 0.4em;
+  padding: 0.25em 1em 0.25em 1em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;  
 }
 
 .book-post div {

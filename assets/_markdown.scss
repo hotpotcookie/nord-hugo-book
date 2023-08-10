@@ -59,6 +59,7 @@
 
   strong.pointer {
     color: #b06179;
+    font-size: 1.3em;
   }
 
 
@@ -85,6 +86,14 @@
     font-size: 0.875em;
     color: #3b4252;
   }
+
+  .book-hint.info p code {
+    background: #f7faff;
+  }  
+
+  .book-hint.info blockquote {
+    border-inline-start: 0.25em solid #f7faff;
+  }    
 
   pre {
     padding: $padding-16;
