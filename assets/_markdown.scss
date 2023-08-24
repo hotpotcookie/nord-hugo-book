@@ -91,6 +91,10 @@
     background: #f7faff;
   }  
 
+  .book-hint.info code {
+    background: #f7faff;
+  }    
+
   .book-hint.info blockquote {
     border-inline-start: 0.25em solid #f7faff;
   }    
@@ -285,6 +289,16 @@
     margin-bottom: 0.25em;
   }
 
+  .custom.table.markdown-inner.complex .except:first-child {
+    background: #ffff;
+    color: #2e3440;
+    text-align: left;
+  }
+
 .book-expand-head.flex.justify-between {
   margin-bottom: 0em;
+}
+
+.book-expand-head span {
+  color: #3b4252;
 }

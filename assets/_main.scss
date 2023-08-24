@@ -100,6 +100,7 @@ ul.pagination {
   }
 
   span {
+    font-size: 0.95em;
     color: #e391aa;    
   }
 }
@@ -177,6 +178,10 @@ body[dir="rtl"] .book-menu {
 
 .book-page .markdown div {
   color: white;
+}
+
+.book-page .markdown .book-columns div {
+  color: #3b4252;
 }
 
 .book-page .markdown p span, ul, li, label, td {
@@ -446,3 +451,19 @@ body[dir="rtl"] .book-menu {
 ::-webkit-scrollbar-thumb:hover {
   background: #72829c;
 }
+
+@media screen and (max-width: 900px) {
+  .book-toc-content {
+    display: none;
+  }
+  .book-toc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #toc-control {
+    display: inline;
+  }
+}
+
