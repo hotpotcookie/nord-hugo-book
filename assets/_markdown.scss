@@ -37,7 +37,11 @@
     font-size: 1.5em;
   }
 
-  h4,
+  h4 {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+
   h5,
   h6 {
     font-weight: bolder;
@@ -208,7 +212,9 @@
   hr {
     height: $padding-1;
     border: none;
+    border-top: 0.5px solid #b8c1d1;
     background: #b8c1d1;
+    clear: both;    
   }
 
   ul,
