@@ -79,6 +79,11 @@
     }
   }
 
+  a:focus, a:active {
+      outline: none;
+      -moz-outline-style: none;
+  }  
+
   img {
     max-width: 100%;
     height: auto;
@@ -309,3 +314,8 @@
 .book-expand-head span {
   color: #3b4252;
 }
+
+a:focus, a:active, a {
+    outline: none;
+    -moz-outline-style: none;
+}  
