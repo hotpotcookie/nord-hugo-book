@@ -319,3 +319,14 @@ a:focus, a:active, a {
     outline: none;
     -moz-outline-style: none;
 }  
+
+tr .top-right-rad {
+  border-top-right-radius: 0.5em;
+}
+tr .bottom-right-rad {
+  border-bottom-right-radius: 0.5em;
+}
+
+tr .horizontal {
+  text-align: left;
+}
